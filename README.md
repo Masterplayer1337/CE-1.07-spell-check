@@ -13,6 +13,7 @@ I have no clue about real coding, FTL moding mostly works by editing simple xml 
 So this whole "project" is really just about spell checking a lot of small text snippets contained in xml capsules.
 
 Announcement 04.12.2013
+
 Wow, events.xml is done, sweet work by jep. So, I'm pretty inexperienced with this whole Github thing. What happens now? Should I take events.xml off? I'd actually like to, cause I really don't like to edit things in the browser. Also, I feel its cool that he submitted his changes immediately as a pull request. I guess this is more efficient, cause this way people don't double correct the same stuff? Maybe everyone could make pull request and the other forks could also be merged for now, even if you haven't completed what you where doing? I feel like like some forks going to be abandon, and I can not pull them if you don't request it. With event's.xml done, the bulk of the work is through, but I still like to go back to work offline on this soon. So maybe there should be a deadline at some point?
 
 So lets say 15. of December ends this spell check round. Please submit you pull requests till then. 
