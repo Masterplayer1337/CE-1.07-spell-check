@@ -1971,7 +1971,7 @@
 	<choice hidden="true" req="sensors" lvl="2">
 		<text>(Improved Sensors) Try to maintain a lock on their ships from a distance.</text>
 		<event>
-			<text>You overclock your sensors, trying to get them to function in the clouds. They work just enough to let you keep tabs on their general position. After a time, the assault ship and most of the escort jumps away from the platform. You take the opportunity and move in to attack.</text>
+			<text>You overclock your sensors, trying to get them to function in the clouds. They work just well enough to let you keep tabs on their general position. After a time, the assault ship and most of the escort jumps away from the platform. You take the opportunity and move in to attack.</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
@@ -1982,11 +1982,11 @@
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
 		</choice>	
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
-			<text>(Targeting Jammer) Jam the enemy weapon targeting.</text>
+			<text>(Targeting Jammer) Jam the enemy weapons' targeting.</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(Drone Uplink Jammer) Jam the enemy drone communication.</text>
+			<text>(Drone Uplink Jammer) Jam the enemy drones' communication.</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -3028,7 +3028,7 @@
 	<choice hidden="true" req="WEAPONS_EFFECTOR">
 		<text>(Effector) Use the effector to counter the cyber sabotage.</text> 
 		<event>
-			<text>Luckily the slugs hacking routines are no match for your effector device. Your life support comes back on-line.</text>
+			<text>Fortunately, the slugs hacking routines are no match for your effector device. Your life support comes back on-line.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare for offensive cyber attack. Effectorize the hostile!</text> 
@@ -3122,7 +3122,7 @@
 			<choice hidden="true">
 				<text>Take the deal and purchase an unknown weapon. [Scrap: 40]</text>
 				<event>
-					<text>Your write a scrap transfer order and the Slug agrees to send the weapon to your ship. The gun has seen better days, but is usable. And after all it really was a bargain.</text>	
+					<text>You write a scrap transfer order and the Slug agrees to send the weapon to your ship. The gun has seen better days, but is usable. And after all it really was a bargain.</text>	
 					<item_modify>
 						<item type="scrap" min="-40" max="-40"/>
 					</item_modify>
@@ -3154,14 +3154,14 @@
 </textList>
 <eventList name="BS_EVENT_SLUG_BLACKMARKET_NEBULA_TRADE">
 	<event>
-		<text>Your write a scrap transfer order and the Slug agrees to send the weapon to your ship. The gun has seen better days, but is usable.</text>
+		<text>You write a scrap transfer order and the Slug agrees to send the weapon to your ship. The gun has seen better days, but is usable.</text>
 		<item_modify>
 			<item type="scrap" min="-50" max="-50"/>
 		</item_modify>
 		<weapon name="RANDOM"/>
 	</event>
 	<event>
-		<text>Your write a scrap transfer order and the Slug agrees to send the weapon to your ship. As it does not arrive after quite a time your go back to the shop, only to find it empty. Inquiry for the owner only results in frustration: Every Slugs you ask denies that this shop is actually in business. Seems you got ripped off.</text>
+		<text>You write a scrap transfer order and the Slug agrees to send the weapon to your ship. As it does not arrive after quite a time your go back to the shop, only to find it empty. Inquiry for the owner only results in frustration: Every Slug you ask denies that this shop is actually in business. Seems you got ripped off.</text>
 		<item_modify>
 			<item type="scrap" min="-50" max="-50"/>
 		</item_modify>
@@ -3242,7 +3242,7 @@
 		</item_modify>
 		<damage amount="-3"/>
 		<choice hidden="true">
-			<text>This is outrageous. Attack the station!</text>
+			<text>This is outrageous! Attack the station!</text>
 			<event>
 				<ship hostile="true"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
